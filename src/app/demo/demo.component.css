@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 20vh 20px;
+    text-align: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.services {
+    display: flex;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultation {
+    background-color: #28a745; /* Green */
+}
+
+.affordable {
+    background-color: #17a2b8; /* Blue */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

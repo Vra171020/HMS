@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-weight: bold;
+  }
+  .btn-custom {
+    color: white;
+    background-color: #dc3545; /* Customize color as needed */
+    border: none;
+    transition: background-color 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: #c82333; /* Darker shade for hover effect */
+  }
+ 
+  .feature-box img {
+    width: 100%; /* Make images responsive */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+  }
